@@ -11,9 +11,7 @@ public class StoreManagement {
 		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm");  
 		LocalDateTime now = LocalDateTime.now(); 
 		System.out.println(dtf.format(now)); 
-		System.out.println("Group member (in alphabetical order): ");
-		System.out.println("Chong Jing Voon");
-		System.out.println("Foong Wei Hong");				
+				
 		
 		//defined variable that is used in the program 
 		Scanner input = new Scanner(System.in);
